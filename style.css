@@ -1,0 +1,113 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-part {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 600px;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 3%;
+  padding: 2%;
+}
+.half-width h1,
+.work-part h1,
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.top-part h1 {
+  margin-bottom: 0;
+}
+.half-width h2 {
+  font-size: 45px;
+  color: rgb(199, 61, 107);
+  margin-top: 0;
+  padding-top: 0;
+}
+.half-width img {
+  width: 100%;
+}
+
+.anchor-button {
+  text-decoration: none;
+  background: rgb(250, 27, 101);
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.middle-part {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-bottom: 50px;
+}
+.work-part {
+  background-image: url("/images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: left;
+  text-align: center;
+}
+.all-work {
+  margin-left: 50px;
+}
+.work-col {
+  width: 30%;
+  float: left;
+  margin: 1%;
+}
+.work-col img {
+  width: 100%;
+}
+
+.client-sec {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: center;
+  text-align: center;
+}
+
+.client-sec h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.client-info p {
+  color: gray;
+  font-size: 14px;
+}
+.client-msg {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.message-sec {
+  width: 50%;
+  margin: 0 auto;
+  background: rgb(250, 27, 101);
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.message-sec a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
